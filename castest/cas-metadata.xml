@@ -160,7 +160,7 @@
                     index="5"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http://ccz457.ust.hk/"
+                    Location="http://ccz457-test.ust.hk/"
                     index="6"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
