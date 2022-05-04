@@ -507,6 +507,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://admms50.ust.hk/"
                     index="69"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://admmd7.ust.hk/"
+                    index="70"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
