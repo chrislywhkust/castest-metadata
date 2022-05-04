@@ -117,6 +117,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://asset-dev.ust.hk:8100/"
                     index="10"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://ipeer-app1.ust.hk/"
+                    index="11"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
