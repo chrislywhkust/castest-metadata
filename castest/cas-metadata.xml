@@ -15,7 +15,7 @@
             <EmailAddress>mailto:ccyflai@ust.hk</EmailAddress>
         </ContactPerson>
     </EntityDescriptor>
-    <EntityDescriptor entityID="http://ccz457.ust.hk/docs/examples/example_simple.php">
+    <EntityDescriptor entityID="https://castest.ust.hk/nomfa">
         <Extensions>
             <mdattr:EntityAttributes>
                 <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
