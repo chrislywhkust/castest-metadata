@@ -121,6 +121,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://ipeer-app1.ust.hk/"
                     index="11"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://applyglobal.hkust.edu.hk/"
+                    index="12"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
