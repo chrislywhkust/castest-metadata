@@ -531,6 +531,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://isz086.ust.hk:8090/"
                     index="73"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://ecard.dev01.ust.hk/"
+                    index="74"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://dental.admlu71.ust.hk/"
+                    index="75"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
