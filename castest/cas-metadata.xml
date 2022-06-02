@@ -182,6 +182,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://ssci-dev.ven01.ust.hk/"
                     index="9"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://cfp.ust.hk/"
+                    index="10"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://opoonlecture.hkust.edu.hk/"
+                    index="11"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
