@@ -559,6 +559,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://ccz457-iso.ust.hk:8080/"
                     index="78"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://gzms60.ust.hk/"
+                    index="79"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
