@@ -576,4 +576,33 @@
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
         </SPSSODescriptor>
     </EntityDescriptor>
+    <EntityDescriptor entityID="https://localhost_gz:8144">
+        <Extensions>
+            <mdattr:EntityAttributes>
+                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>departmentNumber</saml:AttributeValue>
+                    <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
+                    <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
+                    <saml:AttributeValue>name</saml:AttributeValue>
+                    <saml:AttributeValue>mail</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>member</saml:AttributeValue>
+                </saml:Attribute>
+            </mdattr:EntityAttributes>
+        </Extensions>
+        <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http:/ccz457-gz.ust.hk/"
+                    index="1"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://snorby.cle.ust.hk/"
+                    index="2"/>
+            <SingleLogoutService
+                    Binding="https://www.apereo.org/cas/protocol/logout"
+                    Location="urn:mace:shibboleth:profile:CAS:logout"/>
+        </SPSSODescriptor>
+    </EntityDescriptor>
 </EntitiesDescriptor>
