@@ -576,7 +576,7 @@
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
         </SPSSODescriptor>
     </EntityDescriptor>
-    <EntityDescriptor entityID="https://localhost_gz:8144">
+    <EntityDescriptor entityID="https://localhost:8145">
         <Extensions>
             <mdattr:EntityAttributes>
                 <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
