@@ -605,4 +605,29 @@
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
         </SPSSODescriptor>
     </EntityDescriptor>
+    <EntityDescriptor entityID="https://cas_and_family.ust.hk">
+        <Extensions>
+            <mdattr:EntityAttributes>
+                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>mail</saml:AttributeValue>
+                    <saml:AttributeValue>name</saml:AttributeValue>
+                    <saml:AttributeValue>departmentNumber</saml:AttributeValue>
+                    <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
+                    <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>member-or-longservingretiree</saml:AttributeValue>
+                </saml:Attribute>
+            </mdattr:EntityAttributes>
+        </Extensions>
+        <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://ccz457-family.ust.hk/"
+                    index="1"/>
+            <SingleLogoutService
+                    Binding="https://www.apereo.org/cas/protocol/logout"
+                    Location="urn:mace:shibboleth:profile:CAS:logout"/>
+        </SPSSODescriptor>
+    </EntityDescriptor>
 </EntitiesDescriptor>
