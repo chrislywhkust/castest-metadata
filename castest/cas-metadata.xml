@@ -594,7 +594,7 @@
         <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http:/ccz457-gz.ust.hk/"
+                    Location="http://ccz457-gz.ust.hk/"
                     index="1"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
