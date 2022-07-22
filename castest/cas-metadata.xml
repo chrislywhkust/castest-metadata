@@ -580,14 +580,10 @@
         <Extensions>
             <mdattr:EntityAttributes>
                 <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-                    <saml:AttributeValue>departmentNumber</saml:AttributeValue>
-                    <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
-                    <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
-                    <saml:AttributeValue>name</saml:AttributeValue>
                     <saml:AttributeValue>mail</saml:AttributeValue>
                 </saml:Attribute>
                 <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-                    <saml:AttributeValue>member</saml:AttributeValue>
+                    <saml:AttributeValue>member-or-gzusers</saml:AttributeValue>
                 </saml:Attribute>
             </mdattr:EntityAttributes>
         </Extensions>
@@ -600,6 +596,29 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://snorby.cle.ust.hk/"
                     index="2"/>
+            <SingleLogoutService
+                    Binding="https://www.apereo.org/cas/protocol/logout"
+                    Location="urn:mace:shibboleth:profile:CAS:logout"/>
+        </SPSSODescriptor>
+    </EntityDescriptor>
+    <EntityDescriptor entityID="https://localhost:8146">
+        <Extensions>
+            <mdattr:EntityAttributes>
+                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>name</saml:AttributeValue>
+                    <saml:AttributeValue>mail</saml:AttributeValue>
+                    <saml:AttributeValue>uid</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>member-or-gzusers</saml:AttributeValue>
+                </saml:Attribute>
+            </mdattr:EntityAttributes>
+        </Extensions>
+        <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://ccz457-gziso.ust.hk/"
+                    index="1"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
