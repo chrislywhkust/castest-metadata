@@ -211,7 +211,7 @@
         <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://lbnx58.ust.hk/"
+                    Location="https://lbnx58-old.ust.hk/"
                     index="1"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -600,6 +600,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://snorby.cle.ust.hk/"
                     index="2"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://lbnx58.ust.hk/"
+                    index="3"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
