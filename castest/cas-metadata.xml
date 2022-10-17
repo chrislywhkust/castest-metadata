@@ -689,7 +689,7 @@
                     <saml:AttributeValue>name</saml:AttributeValue>
                 </saml:Attribute>
                 <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-                    <saml:AttributeValue>member-or-alum</saml:AttributeValue>
+                    <saml:AttributeValue>student-or-alum</saml:AttributeValue>
                 </saml:Attribute>
             </mdattr:EntityAttributes>
         </Extensions>
