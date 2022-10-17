@@ -698,6 +698,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://ccz457-alumni.ust.hk/"
                     index="1"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisdev.psft.ust.hk:8053/"
+                    index="2"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
