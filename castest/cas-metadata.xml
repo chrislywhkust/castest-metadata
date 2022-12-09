@@ -619,6 +619,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://ucoreview-uat.ust.hk/"
                     index="91"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://isz209.ust.hk:8080/"
+                    index="92"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
