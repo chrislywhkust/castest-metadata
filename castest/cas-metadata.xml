@@ -618,8 +618,11 @@
         <Extensions>
             <mdattr:EntityAttributes>
                 <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-                    <saml:AttributeValue>name</saml:AttributeValue>
                     <saml:AttributeValue>mail</saml:AttributeValue>
+                    <saml:AttributeValue>name</saml:AttributeValue>
+                    <saml:AttributeValue>departmentNumber</saml:AttributeValue>
+                    <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
+                    <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
                     <saml:AttributeValue>uid</saml:AttributeValue>
                 </saml:Attribute>
                 <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
