@@ -294,7 +294,7 @@
                     index="10"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http://isz087-old.ust.hk:8080/"
+                    Location="http://isz087.ust.hk:8080/"
                     index="11"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -510,7 +510,7 @@
                     index="64"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http://isz080-old.ust.hk:8080/"
+                    Location="http://isz080.ust.hk:8080/"
                     index="65"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -730,14 +730,6 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sisdev.psft.ust.hk:8053/"
                     index="2"/>
-            <AssertionConsumerService
-                    Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http://isz087.ust.hk:8080/"
-                    index="3"/>
-            <AssertionConsumerService
-                    Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="http://isz080.ust.hk:8080/"
-                    index="4"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
