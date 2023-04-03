@@ -738,10 +738,6 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://isz080.ust.hk:8080/"
                     index="4"/>
-            <AssertionConsumerService
-                    Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admsu19.ust.hk:9998/"
-                    index="5"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
