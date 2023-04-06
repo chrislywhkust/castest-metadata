@@ -346,7 +346,7 @@
                     index="23"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admlu36.ust.hk:8443/"
+                    Location="https://admlu36-old.ust.hk:8443/"
                     index="24"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -438,7 +438,7 @@
                     index="46"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://sisuat.psft.ust.hk:8043/"
+                    Location="https://sisuat-old.psft.ust.hk:8043/"
                     index="47"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -679,6 +679,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://admms65.ust.hk/"
                     index="11"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisuat.psft.ust.hk:8043/"
+                    index="12"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://admlu36.ust.hk:8443/"
+                    index="13"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
