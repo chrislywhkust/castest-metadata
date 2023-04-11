@@ -582,7 +582,7 @@
                     index="82"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admms60.ust.hk/"
+                    Location="https://admms60-inactive.ust.hk/"
                     index="83"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -681,7 +681,7 @@
                     index="9"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admms60-inactive.ust.hk/"
+                    Location="https://admms60.ust.hk/"
                     index="10"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
