@@ -584,6 +584,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://admms60.ust.hk/"
                     index="83"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisdev.hkust-gz.edu.cn/"
+                    index="84"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisuat.hkust-gz.edu.cn/"
+                    index="85"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
