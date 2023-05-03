@@ -322,7 +322,7 @@
                     index="29"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admsu23.ust.hk:9998/"
+                    Location="https://admsu23-old.ust.hk:9998/"
                     index="30"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -338,7 +338,7 @@
                     index="33"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://fmsuat.psft.ust.hk:8043/"
+                    Location="https://fmsuat-old.psft.ust.hk:8043/"
                     index="34"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -544,10 +544,6 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sisuat.hkust-gz.edu.cn/"
                     index="85"/>
-            <AssertionConsumerService
-                    Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://gzasu23.hkust-gz.edu.cn:9998"
-                    index="86"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
@@ -663,6 +659,18 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://gzalu36.hkust-gz.edu.cn:8443/"
                     index="16"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fmsuat.psft.ust.hk:8043/"
+                    index="17"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://admsu23.ust.hk:9998/"
+                    index="18"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://gzasu23.hkust-gz.edu.cn:9998/"
+                    index="19"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
