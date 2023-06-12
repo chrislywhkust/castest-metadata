@@ -534,7 +534,7 @@
                     index="82"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://admms60-inactive.ust.hk/"
+                    Location="http://isz113.ust.hk:8080/"
                     index="83"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
