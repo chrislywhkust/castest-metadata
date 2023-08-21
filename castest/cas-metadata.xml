@@ -548,6 +548,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://isz301.ust.hk:8080/"
                     index="86"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://143.89.100.143:8080/"
+                    index="87"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
