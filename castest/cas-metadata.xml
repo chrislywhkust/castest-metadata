@@ -120,6 +120,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://ccz457-canvas.ust.hk/"
                     index="2"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://docker-aluat01.ust.hk/"
+                    index="3"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://docker-aluat01.ust.hk/"
+                    index="4"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
