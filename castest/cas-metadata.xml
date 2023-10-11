@@ -742,6 +742,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sisdev.psft.ust.hk:8053/"
                     index="2"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sissit.psft.ust.hk:8053/"
+                    index="3"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisuat.psft.ust.hk:8001/"
+                    index="4"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
