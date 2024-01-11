@@ -568,6 +568,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://143.89.100.143:8080/"
                     index="87"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://ams92dev2.psft.ust.hk:8043/"
+                    index="88"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://ams92sit2.psft.ust.hk:8043/"
+                    index="89"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
