@@ -402,7 +402,7 @@
                     index="45"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
-                    Location="https://sispoc.psft.ust.hk:8043/"
+                    Location="https://sispoc-inactive.psft.ust.hk:8043/"
                     index="46"/>
             <AssertionConsumerService
                     Binding="https://www.apereo.org/cas/protocol/login"
@@ -576,6 +576,38 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://ams92sit2.psft.ust.hk:8043/"
                     index="89"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sissit.psft.ust.hk:8044/"
+                    index="90"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://ams92uat.psft.ust.hk:8043/"
+                    index="91"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fmsdev.psft.ust.hk:8045/"
+                    index="92"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fmssit.psft.ust.hk:8045/"
+                    index="93"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fmsuat.psft.ust.hk:8045/"
+                    index="94"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://hrmsdev.psft.ust.hk:8045/"
+                    index="95"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://hrmssit.psft.ust.hk:8045/"
+                    index="96"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://hrmsuat.psft.ust.hk:8045/"
+                    index="97"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
