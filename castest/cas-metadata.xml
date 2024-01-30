@@ -99,6 +99,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://fbs.uat01.ust.hk/"
                     index="17"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fo.docker-uat01.ust.hk/"
+                    index="18"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
