@@ -612,6 +612,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://hrmsuat.psft.ust.hk:8045/"
                     index="97"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://admms99.ust.hk/"
+                    index="98"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
@@ -794,6 +798,18 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sisuat.psft.ust.hk:8001/"
                     index="4"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisdev.psft.ust.hk:8054/"
+                    index="5"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sissit.psft.ust.hk:8054/"
+                    index="6"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://sisuat.psft.ust.hk:8054/"
+                    index="7"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
