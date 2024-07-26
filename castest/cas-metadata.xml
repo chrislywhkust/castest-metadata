@@ -616,6 +616,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://admms99.ust.hk/"
                     index="98"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://isz509.ust.hk:8080/"
+                    index="99"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://isz509.ust.hk:8090/"
+                    index="100"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
