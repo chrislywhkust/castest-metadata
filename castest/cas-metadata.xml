@@ -632,6 +632,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://143.89.100.229:8090/"
                     index="102"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://isz303.ust.hk:8080/"
+                    index="103"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://isz303.ust.hk:8090/"
+                    index="104"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
