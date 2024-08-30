@@ -640,6 +640,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://isz303.ust.hk:8090/"
                     index="104"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://pacos2dev2.ust.hk/"
+                    index="105"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
