@@ -648,6 +648,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://pacos2dev2.ust.hk/"
                     index="105"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://143.89.100.166:8080/"
+                    index="106"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://143.89.100.166:8090/"
+                    index="107"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
