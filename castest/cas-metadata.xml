@@ -107,6 +107,18 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://ats-uat.ust.hk/"
                     index="19"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://fbs.uat01.ust.hk/"
+                    index="20"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://fbs.docker-uat01.ust.hk/"
+                    index="21"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://fbs.docker-uat01.ust.hk/"
+                    index="22"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
