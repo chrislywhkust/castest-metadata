@@ -676,6 +676,18 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="http://143.89.100.125:8090/"
                     index="109"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://admdod1.ust.hk/"
+                    index="110"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://admdod1.ust.hk:81/"
+                    index="111"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://admlu50.ust.hk/"
+                    index="112"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
