@@ -910,6 +910,14 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sisuat.psft.ust.hk:8054/"
                     index="7"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://careerdev.hkust.edu.hk/"
+                    index="8"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://careerdev.hkust.edu.hk/"
+                    index="9"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
