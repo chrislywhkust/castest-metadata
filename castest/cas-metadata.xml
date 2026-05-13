@@ -881,7 +881,7 @@
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
         </SPSSODescriptor>
     </EntityDescriptor>
-    <EntityDescriptor entityID="https://cas_ust_hk:8014/">
+    <EntityDescriptor entityID="https://castest_ust_hk:8014/">
         <Extensions>
             <mdattr:EntityAttributes>
                 <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrna>
