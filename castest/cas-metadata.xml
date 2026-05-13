@@ -881,6 +881,31 @@
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
         </SPSSODescriptor>
     </EntityDescriptor>
+    <EntityDescriptor entityID="https://cas_ust_hk:8014/">
+        <Extensions>
+            <mdattr:EntityAttributes>
+                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrna>
+                    <saml:AttributeValue>member-or-alum</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:>
+                    <saml:AttributeValue>name</saml:AttributeValue>
+                    <saml:AttributeValue>mail</saml:AttributeValue>
+                    <saml:AttributeValue>departmentNumber</saml:AttributeValue>
+                    <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
+                    <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
+                </saml:Attribute>
+            </mdattr:EntityAttributes>
+        </Extensions>
+        <SPSSODescriptor protocolSupportEnumeration="https://www.apereo.org/cas/protocol">
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="http://my1.myccz457.ust.hk/"
+                    index="1"/>
+            <SingleLogoutService
+                    Binding="https://www.apereo.org/cas/protocol/logout"
+                    Location="urn:mace:shibboleth:profile:CAS:logout"/>
+        </SPSSODescriptor>
+    </EntityDescriptor>
     <EntityDescriptor entityID="https://castest_ust_hk:8081/">
         <Extensions>
             <mdattr:EntityAttributes>
