@@ -884,15 +884,15 @@
     <EntityDescriptor entityID="https://castest_ust_hk:8014/">
         <Extensions>
             <mdattr:EntityAttributes>
-                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrna>
-                    <saml:AttributeValue>member-or-alum</saml:AttributeValue>
-                </saml:Attribute>
-                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:>
-                    <saml:AttributeValue>name</saml:AttributeValue>
+                <saml:Attribute Name="http://shibboleth.net/ns/attributes/releaseAllValues" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
                     <saml:AttributeValue>mail</saml:AttributeValue>
+                    <saml:AttributeValue>name</saml:AttributeValue>
                     <saml:AttributeValue>departmentNumber</saml:AttributeValue>
                     <saml:AttributeValue>eduPersonAffiliation</saml:AttributeValue>
                     <saml:AttributeValue>voPersonAffiliation</saml:AttributeValue>
+                </saml:Attribute>
+                <saml:Attribute Name="urn:mace:ust.hk:entity:require:affiliation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                    <saml:AttributeValue>member-or-alum</saml:AttributeValue>
                 </saml:Attribute>
             </mdattr:EntityAttributes>
         </Extensions>
