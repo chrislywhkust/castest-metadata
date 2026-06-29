@@ -159,6 +159,10 @@
                     Binding="https://www.apereo.org/cas/protocol/login"
                     Location="https://sengadms.hkust.edu.hk/"
                     index="32"/>
+            <AssertionConsumerService
+                    Binding="https://www.apereo.org/cas/protocol/login"
+                    Location="https://www-dev.ust-sop.aa-testing.com/"
+                    index="33"/>
             <SingleLogoutService
                     Binding="https://www.apereo.org/cas/protocol/logout"
                     Location="urn:mace:shibboleth:profile:CAS:logout"/>
